@@ -41,21 +41,6 @@ The "Table Layout" component provides the following features:
 - Displaying a table of spare parts.
 - Checkbox column for selecting multiple parts.
 
-## File Structure
-
-The main files and directories in the project are organized as follows:
-
-├── src/
-│ ├── components/ # Vue components
-│ ├── assets/ # CSS styles and images
-│ ├── App.vue # Main Vue component
-│ └── main.js # Entry point of the application
-├── public/
-│ ├── index.html # Main HTML file
-│ └── ...
-├── package.json # Project configuration and dependencies
-└── README.md # Project documentation
-
 ## Contributing
 
 Contributions to the project are welcome. If you find any issues or want to add new features, please open an issue or submit a pull request.
