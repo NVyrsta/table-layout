@@ -102,7 +102,7 @@
 export default {
   name: 'TableLayout',
   props: {
-    msg: String
+    msg: String,
   },
   data() {
     return {
@@ -116,7 +116,7 @@ export default {
           price: 200,
           quantity: 1,
           amount: 200,
-          status: 'rejected'
+          status: 'rejected',
         },
         {
           id: 2,
@@ -127,7 +127,7 @@ export default {
           price: 200,
           quantity: 1,
           amount: 200,
-          status: 'agreed orally'
+          status: 'agreed orally',
         },
         {
           id: 3,
@@ -138,7 +138,7 @@ export default {
           price: 200,
           quantity: 1,
           amount: 200,
-          status: 'on agreement'
+          status: 'on agreement',
         },
         {
           id: 4,
@@ -149,10 +149,10 @@ export default {
           price: 200,
           quantity: 3,
           amount: 200,
-          status: 'new'
-        }
+          status: 'new',
+        },
       ],
-      selectAll: false
+      selectAll: false,
     };
   },
   methods: {
@@ -169,8 +169,8 @@ export default {
         default:
           return '';
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

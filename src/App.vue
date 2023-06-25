@@ -10,8 +10,8 @@ import TableLayout from './components/TableLayout.vue';
 export default {
   name: 'App',
   components: {
-    TableLayout
-  }
+    TableLayout,
+  },
 };
 </script>
 
